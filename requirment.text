@@ -1,0 +1,5 @@
+LangGraph: Orchestrates the overall workflow, managing the flow of data between different stages of the process.
+GPT-4o-mini (via LangChain): Generates search terms, selects relevant articles, parses html, provides article summaries
+NewsAPI: Retrieves article metadata from keyword search
+BeautifulSoup: Retrieves html from page
+Asyncio: Allows separate LLM calls to be made concurrently for speed efficiency.
